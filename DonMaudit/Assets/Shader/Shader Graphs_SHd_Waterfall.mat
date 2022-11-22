@@ -35,18 +35,28 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _BottomBrightness: 1.36
-    - _BottomStrengh: 0.57
+    - _AlphaClip: 0
+    - _Blend: 0
+    - _BottomBrightness: 1.56
+    - _BottomStrengh: 0.66
+    - _CastShadows: 1
+    - _Cull: 2
+    - _DstBlend: 0
     - _Erosion: 0
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _RippleAmount: 2
+    - _RippleAmount: 3.28
+    - _SrcBlend: 1
+    - _Surface: 0
     - _VertexOffsetAmount: -0.2
-    - _VoronoiScale: 5.83
+    - _VoronoiScale: 12
     - _VoronoiSpeed: 3
+    - _ZTest: 4
+    - _ZWrite: 1
+    - _ZWriteControl: 0
     m_Colors:
     - _RipplesColor: {r: 0.56078434, g: 0.859722, b: 0.9245283, a: 0.043137256}
-    - _RipplesSpeed: {r: 0, g: 0.72, b: 0, a: 0}
+    - _RipplesSpeed: {r: 0, g: 0.4, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &9102789962265275951
 MonoBehaviour:
