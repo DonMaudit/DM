@@ -39,7 +39,7 @@ Material:
     - _QueueOffset: 0
     - _VoronoiSpeed: 1.13
     m_Colors:
-    - _RipplesSpeed: {r: 0, g: 0.46, b: 0, a: 0}
+    - _RipplesSpeed: {r: 0, g: 1.28, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &9102789962265275951
 MonoBehaviour:
