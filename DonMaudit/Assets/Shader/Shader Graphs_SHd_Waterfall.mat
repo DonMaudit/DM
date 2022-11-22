@@ -37,8 +37,8 @@ Material:
     m_Floats:
     - _AlphaClip: 0
     - _Blend: 0
-    - _BottomBrightness: 1.56
-    - _BottomStrengh: 0.66
+    - _BottomBrightness: 3.3
+    - _BottomStrengh: 2.09
     - _CastShadows: 1
     - _Cull: 2
     - _DstBlend: 0
