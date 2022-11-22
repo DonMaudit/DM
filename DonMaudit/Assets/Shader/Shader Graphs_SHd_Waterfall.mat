@@ -35,11 +35,18 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _BottomBrightness: 1.36
+    - _BottomStrengh: 0.57
+    - _Erosion: 0
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _VoronoiSpeed: 1.13
+    - _RippleAmount: 2
+    - _VertexOffsetAmount: -0.2
+    - _VoronoiScale: 5.83
+    - _VoronoiSpeed: 3
     m_Colors:
-    - _RipplesSpeed: {r: 0, g: 1.28, b: 0, a: 0}
+    - _RipplesColor: {r: 0.56078434, g: 0.859722, b: 0.9245283, a: 0.043137256}
+    - _RipplesSpeed: {r: 0, g: 0.72, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &9102789962265275951
 MonoBehaviour:
