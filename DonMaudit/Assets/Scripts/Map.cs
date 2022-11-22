@@ -2,21 +2,27 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class Map : MonoBehaviour
 {
 
     [SerializeField] private Image mapSprite;
     private Color mapColor;
-    [SerializeField] private AnimationCurve openMap;
-    [SerializeField] private AnimationCurve closeMap;
+    [SerializeField] private AnimationCurve curve;
     [SerializeField] private float curveDuration;
 
     private float timer;
     private float alphaValue;
 
-    private bool opened;
     private bool ready = true;
+
+    [SerializeField] private TMP_Text UIUtilisations;
+    [SerializeField] private int nbUses;
+
+    [SerializeField] private TMP_Text cooldownText;
+    [SerializeField] private float cooldownTime;
+    private float cdValue;
     
     
 
@@ -24,6 +30,7 @@ public class Map : MonoBehaviour
     void Start()
     {
         mapColor = mapSprite.color;
+        UIUtilisations.text = nbUses.ToString();
     }
 
     // Update is called once per frame
@@ -33,24 +40,13 @@ public class Map : MonoBehaviour
         if (Input.GetButtonDown("map"))
         {
             
-            if (opened)
+            if (ready && nbUses> 0)
             {
-                if (ready)
-                {
-                    Debug.Log("nope");
-                    opened = false;
-                    StartCoroutine("AlphaValue", curveDuration);
-                }
+                StartCoroutine("AlphaValue", curveDuration);
+                nbUses -= 1;
+                UIUtilisations.text = nbUses.ToString();
             }
-            else
-            {
-                if (ready)
-                {
-                    Debug.Log("ouaip");
-                    opened = true;
-                    StartCoroutine("AlphaValue", curveDuration); 
-                }
-            }
+            
         }
     }
 
@@ -60,20 +56,11 @@ public class Map : MonoBehaviour
     {
         ready = false;
         timer = 0f;
-        AnimationCurve currentCurve;
-        if (!opened)
-        {
-            currentCurve = closeMap;
-        }
-        else
-        {
-            currentCurve = openMap;
-        }
 
         while (timer < 1)
         {
             
-            alphaValue = currentCurve.Evaluate(timer);
+            alphaValue = curve.Evaluate(timer);
             
             mapColor.a = alphaValue;
             mapSprite.color = mapColor;
@@ -82,20 +69,27 @@ public class Map : MonoBehaviour
             
             yield return new WaitForEndOfFrame();
         }
-        yield return null;
-        StartCoroutine("cooldown");
-    }
-
-    private IEnumerator cooldown()
-    {
-        float newTimer;
-        newTimer = 0f;
-        while (newTimer < 5)
-        {
-            newTimer += Time.deltaTime;
-            yield return new WaitForEndOfFrame();
-        }
 
         ready = true;
+        StartCoroutine(CoolDown());
+        yield return null;
+        
     }
+
+    private IEnumerator CoolDown()
+    {
+        cooldownText.enabled = true;
+        float newTimer;
+        newTimer = 0f;
+        while (newTimer < cooldownTime)
+        {
+            cdValue = newTimer.RoundF(2);
+            newTimer += Time.deltaTime;
+            cooldownText.text = cdValue.ToString();
+            yield return new WaitForEndOfFrame();
+        }
+        cooldownText.enabled = false;
+    }
+
+    
 }

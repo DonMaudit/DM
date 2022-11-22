@@ -1,0 +1,30 @@
+[SerializeField] private float speed;
+    [SerializeField] private AnimationCurve moveCurve;
+    private Rigidbody m_rigid;
+    private float timer;
+    [SerializeField] private float accel;
+    private float moveOk;
+    private Vector3 moveValue;
+
+    private void Start()
+    {
+        m_rigid = gameObject.GetComponent<Rigidbody>();
+    }
+
+    void FixedUpdate()
+    {
+        if (Input.GetAxisRaw("Horizontal") != 0 || Input.GetAxisRaw("Vertical") != 0)
+        {
+            timer += Time.fixedDeltaTime * accel;
+            moveOk = moveCurve.Evaluate(timer);
+            moveValue= new Vector3(Input.GetAxis("Horizontal"), 0f,Input.GetAxis("Vertical"));
+            Debug.Log(timer);
+            moveValue.Normalize();
+            m_rigid.velocity = moveValue * speed * moveOk * Time.fixedDeltaTime;
+
+        }
+        else
+        {
+            timer = 0f;
+        }
+    }
