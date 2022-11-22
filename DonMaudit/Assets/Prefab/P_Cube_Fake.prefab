@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 1379692926179637031}
   - component: {fileID: 7556178837265362904}
   m_Layer: 0
-  m_Name: P_Cube_Invisible
+  m_Name: P_Cube_Fake
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -300,7 +300,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e83026f1976c711479c16aa71d7b14a1, type: 2}
+  - {fileID: 2100000, guid: 26465a858c449fc4197192e72beae44b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
