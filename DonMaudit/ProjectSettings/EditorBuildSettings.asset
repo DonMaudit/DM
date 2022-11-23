@@ -8,7 +8,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 1
+  - enabled: 0
     path: Assets/Levels/Gym_Marion.unity
     guid: 14a7c936bc1ab3445b6aadaf51977c20
+  - enabled: 1
+    path: Assets/-Final_scenes/Hub_01.unity
+    guid: 88d1e6b7bb642114ab6a158d02c8fc87
   m_configObjects: {}
