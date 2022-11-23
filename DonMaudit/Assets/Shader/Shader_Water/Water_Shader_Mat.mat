@@ -44,9 +44,9 @@ Material:
     - _Cull: 2
     - _DstBlend: 10
     - _FoamAmount: 9.33
-    - _FoamCutOff: 0.91
+    - _FoamCutOff: 7
     - _FoamOffset: 0.6
-    - _FoamScale: 49.41
+    - _FoamScale: 58.54
     - _FoamSpeed: 1.44
     - _QueueControl: 0
     - _QueueOffset: 0
