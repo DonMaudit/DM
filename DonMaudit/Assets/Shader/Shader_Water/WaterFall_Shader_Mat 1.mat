@@ -7,17 +7,20 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Graphs_SHd_Waterfall
-  m_Shader: {fileID: -6465566751694194690, guid: c07c59a0ba6dc9a4ebc9f285c1ce858f,
+  m_Name: WaterFall_Shader_Mat 1
+  m_Shader: {fileID: -6465566751694194690, guid: f42cbd5a67ae68040824b3b37dee9c26,
     type: 3}
-  m_ValidKeywords: []
+  m_ValidKeywords:
+  - _SURFACE_TYPE_TRANSPARENT
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
+  stringTagMap:
+    RenderType: Transparent
+  disabledShaderPasses:
+  - DepthOnly
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -37,28 +40,37 @@ Material:
     m_Floats:
     - _AlphaClip: 0
     - _Blend: 0
-    - _BottomBrightness: 3.3
-    - _BottomStrengh: 2.09
     - _CastShadows: 1
     - _Cull: 2
-    - _DstBlend: 0
-    - _Erosion: 0
+    - _DstBlend: 10
+    - _FoamAmount: 9.33
+    - _FoamCutOff: 1
+    - _FoamOffset: 0.6
+    - _FoamScale: 102.8
+    - _FoamSpeed: 1.44
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _RippleAmount: 3.28
-    - _SrcBlend: 1
-    - _Surface: 0
-    - _VertexOffsetAmount: -0.2
-    - _VoronoiScale: 12
-    - _VoronoiSpeed: 3
+    - _RDensity: 23.8
+    - _RSlim: 5
+    - _RSpeed: 1
+    - _RefractionScale: 0.5
+    - _RefractionSpeed: 1
+    - _RefractionStrengh: 1
+    - _SrcBlend: 5
+    - _Surface: 1
+    - _TEST_POWER: 1
+    - _WaterDepth: 10
     - _ZTest: 4
-    - _ZWrite: 1
+    - _ZWrite: 0
     - _ZWriteControl: 0
     m_Colors:
-    - _RipplesColor: {r: 0.5607843, g: 0.859722, b: 0.9245283, a: 0.16470589}
-    - _RipplesSpeed: {r: 0, g: 0.4, b: 0, a: 0}
+    - _DeepWater: {r: 0.003665708, g: 0, b: 0.75471693, a: 0.65882355}
+    - _Direction_Wave: {r: 0.02, g: 0.02, b: 0, a: 0}
+    - _FoamColor: {r: 0.9481132, g: 0.9829079, b: 1, a: 0.8431373}
+    - _RColor: {r: 0.5877537, g: 0.8382851, b: 0.9811321, a: 0}
+    - _ShallowWater: {r: 0.22895145, g: 0.832305, b: 0.99056596, a: 0.5882353}
   m_BuildTextureStacks: []
---- !u!114 &9102789962265275951
+--- !u!114 &3777839614873044270
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}

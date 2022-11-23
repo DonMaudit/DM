@@ -197,6 +197,9 @@
         },
         {
             "m_Id": "b3ab3e66e8b54846abf570fc56826f97"
+        },
+        {
+            "m_Id": "d6b28f9372544db09a1d8ee7c6044e54"
         }
     ],
     "m_GroupDatas": [],
@@ -779,6 +782,20 @@
         {
             "m_OutputSlot": {
                 "m_Node": {
+                    "m_Id": "d6b28f9372544db09a1d8ee7c6044e54"
+                },
+                "m_SlotId": 1
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "b3ab3e66e8b54846abf570fc56826f97"
+                },
+                "m_SlotId": 0
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
                     "m_Id": "e23e41b06d5c4e55a59d67d57b4908a8"
                 },
                 "m_SlotId": 2
@@ -802,6 +819,20 @@
                     "m_Id": "2da88eb3ab354a98a75665dfe37c87df"
                 },
                 "m_SlotId": 0
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
+                    "m_Id": "ebad7b1a77084c1cbfdbe119b30f7e23"
+                },
+                "m_SlotId": 0
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "b3ab3e66e8b54846abf570fc56826f97"
+                },
+                "m_SlotId": 1
             }
         },
         {
@@ -1705,6 +1736,21 @@
     "m_CustomColors": {
         "m_SerializableColors": []
     }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "24b7fef09eaa4b5b8dbd3c6a75d04475",
+    "m_Id": -1086620795,
+    "m_DisplayName": "Distance",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "_Distance",
+    "m_StageCapability": 2,
+    "m_Value": 0.0,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
 }
 
 {
@@ -3426,6 +3472,31 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector4MaterialSlot",
+    "m_ObjectId": "7c0cc62f77e940a9a2504c6857ee2eef",
+    "m_Id": 1,
+    "m_DisplayName": "Out_Vector4",
+    "m_SlotType": 1,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "OutVector4",
+    "m_StageCapability": 2,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+    },
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.SceneDepthNode",
     "m_ObjectId": "80e8caeb6f924fdea5fbf24f10b550c3",
     "m_Group": {
@@ -4494,8 +4565,8 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -850.0000610351563,
-            "y": 1577.0,
+            "x": -883.0,
+            "y": 1488.0,
             "width": 208.0,
             "height": 302.0
         }
@@ -5357,6 +5428,50 @@
     },
     "m_Labels": [],
     "m_Space": 0
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.SubGraphNode",
+    "m_ObjectId": "d6b28f9372544db09a1d8ee7c6044e54",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "Depth Fade",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": -1225.0001220703125,
+            "y": 1506.0001220703125,
+            "width": 213.00006103515626,
+            "height": 278.0
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "24b7fef09eaa4b5b8dbd3c6a75d04475"
+        },
+        {
+            "m_Id": "7c0cc62f77e940a9a2504c6857ee2eef"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_SerializedSubGraph": "{\n    \"subGraph\": {\n        \"fileID\": -5475051401550479605,\n        \"guid\": \"6d92a61ace3216f43af7bec4264a60f5\",\n        \"type\": 3\n    }\n}",
+    "m_PropertyGuids": [
+        "9ca0c445-cc49-4339-815d-399a082e9bfa"
+    ],
+    "m_PropertyIds": [
+        -1086620795
+    ],
+    "m_Dropdowns": [],
+    "m_DropdownSelectedEntries": []
 }
 
 {
