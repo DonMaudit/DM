@@ -5,22 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 0
-    path: Assets/Levels/Gym_Marion.unity
-    guid: 14a7c936bc1ab3445b6aadaf51977c20
   - enabled: 1
-    path: Assets/-Final_scenes/Hub_01.unity
+    path: Assets/-Final_scenes/Hub_00.unity
     guid: 88d1e6b7bb642114ab6a158d02c8fc87
   - enabled: 1
     path: Assets/-Final_scenes/Level_01_Water.unity
     guid: ea70170c34cbfb9418599dc892117e2d
   - enabled: 1
     path: Assets/-Final_scenes/Hub_02.unity
-    guid: 08afae3f62ebec0429a731ec09718f02
+    guid: 66b74ee1c2c566543981d726c6c39c1d
   - enabled: 1
-    path: Assets/-Final_scenes/Level_02_Fire.unity
+    path: Assets/-Final_scenes/Level_03_Fire.unity
     guid: e1e48997d97ac6a4b9b0cae7830c4911
+  - enabled: 1
+    path: Assets/-Final_scenes/Hub_04.unity
+    guid: 8d265a86b67ae2d4b9bbe7de9f11e1fb
   m_configObjects: {}

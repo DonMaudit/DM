@@ -888,7 +888,7 @@ Transform:
   - {fileID: 943357047}
   - {fileID: 1011735769}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &90421446
 GameObject:
@@ -980,11 +980,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3022643679116654702, guid: 3b01cb7dee37cc04bbf681fae9f7087c,
-        type: 3}
-      propertyPath: sceneIndex
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 8158820153045790133, guid: 3b01cb7dee37cc04bbf681fae9f7087c,
         type: 3}
       propertyPath: m_LocalPosition.y
@@ -3372,7 +3367,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &397045047
 PrefabInstance:
@@ -18319,7 +18314,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: -88.032, z: 0}
 --- !u!1 &1717367504
 GameObject:
@@ -25366,7 +25361,7 @@ PrefabInstance:
     - target: {fileID: 770516395495036340, guid: 7e6d305d15c3f34488cee6fc4a59013a,
         type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 770516395495036341, guid: 7e6d305d15c3f34488cee6fc4a59013a,
         type: 3}
@@ -25376,7 +25371,7 @@ PrefabInstance:
     - target: {fileID: 770516395495036360, guid: 7e6d305d15c3f34488cee6fc4a59013a,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 770516395495036360, guid: 7e6d305d15c3f34488cee6fc4a59013a,
         type: 3}
@@ -25431,7 +25426,7 @@ PrefabInstance:
     - target: {fileID: 4934830777292423662, guid: 7e6d305d15c3f34488cee6fc4a59013a,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e6d305d15c3f34488cee6fc4a59013a, type: 3}
@@ -25991,7 +25986,7 @@ PrefabInstance:
     - target: {fileID: 6784368375448472767, guid: 4b9c358186ff6634aba3e3d12dcafb79,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6784368375448472767, guid: 4b9c358186ff6634aba3e3d12dcafb79,
         type: 3}
