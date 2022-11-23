@@ -229,7 +229,7 @@ MonoBehaviour:
   ySpeed: 5
   zSpeed: 5
   lookAtDirection: 1
-  isMovementLocal: 1
+  isMovementLocal: 0
   useWallAvoidance: 0
   wallAvoidanceSize: {x: 0.3, y: 1, z: 0.1}
   wallAvoidanceOffset: {x: 0, y: 0, z: 0.5}
@@ -260,7 +260,7 @@ MonoBehaviour:
   currentSpeed: {x: 0, y: 0, z: 0}
   xInputChoiceIndex: 0
   yInputChoiceIndex: 0
-  zInputChoiceIndex: 0
+  zInputChoiceIndex: 1
 --- !u!114 &98296674
 MonoBehaviour:
   m_ObjectHideFlags: 0
