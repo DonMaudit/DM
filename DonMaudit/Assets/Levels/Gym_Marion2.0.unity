@@ -969,6 +969,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!136 &2003261685
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2003261677}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.25
+  m_Height: 1.97
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &3508529999091975400
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1195,12 +1209,117 @@ PrefabInstance:
       propertyPath: curve.m_Curve.Array.data[2].tangentMode
       value: 34
       objectReference: {fileID: 0}
+    - target: {fileID: 24822593271874446, guid: 99e8e24a5fa0cc648aa95a304b67b56b,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 24822593271874446, guid: 99e8e24a5fa0cc648aa95a304b67b56b,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 409929019611277808, guid: 99e8e24a5fa0cc648aa95a304b67b56b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 862121669270124681, guid: 99e8e24a5fa0cc648aa95a304b67b56b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 1018312426381862026, guid: 99e8e24a5fa0cc648aa95a304b67b56b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 1340212109785103362, guid: 99e8e24a5fa0cc648aa95a304b67b56b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 1509318494927667650, guid: 99e8e24a5fa0cc648aa95a304b67b56b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 2480251406737821747, guid: 99e8e24a5fa0cc648aa95a304b67b56b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 2871321597516015563, guid: 99e8e24a5fa0cc648aa95a304b67b56b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 2990534076290378446, guid: 99e8e24a5fa0cc648aa95a304b67b56b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 3392162446795704515, guid: 99e8e24a5fa0cc648aa95a304b67b56b,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3666577629683146551, guid: 99e8e24a5fa0cc648aa95a304b67b56b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 3761690232478055071, guid: 99e8e24a5fa0cc648aa95a304b67b56b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 3762137390580782794, guid: 99e8e24a5fa0cc648aa95a304b67b56b,
         type: 3}
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 3888871872196427290, guid: 99e8e24a5fa0cc648aa95a304b67b56b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 4111529992541676417, guid: 99e8e24a5fa0cc648aa95a304b67b56b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 4448114350042873886, guid: 99e8e24a5fa0cc648aa95a304b67b56b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 4825516330424744766, guid: 99e8e24a5fa0cc648aa95a304b67b56b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 4873113902524342835, guid: 99e8e24a5fa0cc648aa95a304b67b56b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 5670714656218725562, guid: 99e8e24a5fa0cc648aa95a304b67b56b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 6010401491120532610, guid: 99e8e24a5fa0cc648aa95a304b67b56b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 6056782522660457995, guid: 99e8e24a5fa0cc648aa95a304b67b56b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 6325986069868801360, guid: 99e8e24a5fa0cc648aa95a304b67b56b,
         type: 3}
       propertyPath: m_TagString
       value: Player
@@ -1260,12 +1379,32 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7522035258513852682, guid: 99e8e24a5fa0cc648aa95a304b67b56b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110425471793257004, guid: 99e8e24a5fa0cc648aa95a304b67b56b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 8298031002303780164, guid: 99e8e24a5fa0cc648aa95a304b67b56b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 8824980266640728917, guid: 99e8e24a5fa0cc648aa95a304b67b56b,
         type: 3}
       propertyPath: m_Name
       value: P_Player
       objectReference: {fileID: 0}
     - target: {fileID: 8824980266640728917, guid: 99e8e24a5fa0cc648aa95a304b67b56b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881091952166645557, guid: 99e8e24a5fa0cc648aa95a304b67b56b,
         type: 3}
       propertyPath: m_TagString
       value: Player
@@ -1353,6 +1492,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: P_SceneLoadTrigger
+      objectReference: {fileID: 0}
+    - target: {fileID: 6820842316428295505, guid: aa2849284c9dd884d89e45ee9f21d0a2,
+        type: 3}
+      propertyPath: delay
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6820842316428295505, guid: aa2849284c9dd884d89e45ee9f21d0a2,
         type: 3}

@@ -36,7 +36,6 @@ public class Map : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(ready);
         if (Input.GetButtonDown("map"))
         {
             
