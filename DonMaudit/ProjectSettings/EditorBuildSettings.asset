@@ -14,4 +14,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/-Final_scenes/Hub_01.unity
     guid: 88d1e6b7bb642114ab6a158d02c8fc87
+  - enabled: 1
+    path: Assets/-Final_scenes/Level_01_Water.unity
+    guid: ea70170c34cbfb9418599dc892117e2d
+  - enabled: 1
+    path: Assets/-Final_scenes/Hub_02.unity
+    guid: 08afae3f62ebec0429a731ec09718f02
+  - enabled: 1
+    path: Assets/-Final_scenes/Level_02_Fire.unity
+    guid: e1e48997d97ac6a4b9b0cae7830c4911
   m_configObjects: {}
