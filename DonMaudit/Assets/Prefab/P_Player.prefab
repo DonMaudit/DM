@@ -236,7 +236,7 @@ MonoBehaviour:
   wallAvoidanceLayers:
     serializedVersion: 2
     m_Bits: 1
-  animator: {fileID: 0}
+  animator: {fileID: 748044663488048528}
   movementParticleSystem: {fileID: 0}
   minVelocityToToggle: 0.2
   xDirParameterName: xSpeed
@@ -359,6 +359,12 @@ PrefabInstance:
       objectReference: {fileID: 9100000, guid: 1ecc58b616bf85248802ebe0729a229f, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31c5e8e2461351d45880a2bea5d3e859, type: 3}
+--- !u!95 &748044663488048528 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: 31c5e8e2461351d45880a2bea5d3e859,
+    type: 3}
+  m_PrefabInstance: {fileID: 6560340587182313473}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &6665813969487869930 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 31c5e8e2461351d45880a2bea5d3e859,
