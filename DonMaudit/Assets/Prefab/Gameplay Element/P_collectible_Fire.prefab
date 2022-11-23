@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 3733159353109743930}
   - component: {fileID: 3733159353109743873}
   m_Layer: 0
-  m_Name: P_collectible
+  m_Name: P_collectible_Fire
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -64,7 +64,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 44492aeb6175c114ba4abaacacf31d60, type: 2}
+  - {fileID: 2100000, guid: 7fbc26f76581d204ebf7bf63ca399d0e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -125,6 +125,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2eb3debe331fe064e98b57a80423ea4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectToSpawn: {fileID: 7199058533051213219, guid: d2b401bf3fbea4844ae85b09eb3aaa35,
+  objectToSpawn: {fileID: 7199058533051213219, guid: 072ac7fb78f22e747bdea2b7bb83eed1,
     type: 3}
   spawnInsideSameParent: 1
