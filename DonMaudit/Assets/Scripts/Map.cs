@@ -70,7 +70,7 @@ public class Map : MonoBehaviour
             yield return new WaitForEndOfFrame();
         }
 
-        ready = true;
+        
         StartCoroutine(CoolDown());
         yield return null;
         
@@ -83,12 +83,13 @@ public class Map : MonoBehaviour
         newTimer = 0f;
         while (newTimer < cooldownTime)
         {
-            cdValue = newTimer.RoundF(2);
+            cdValue = cooldownTime - newTimer.RoundF(0);
             newTimer += Time.deltaTime;
             cooldownText.text = cdValue.ToString();
             yield return new WaitForEndOfFrame();
         }
         cooldownText.enabled = false;
+        ready = true;
     }
 
     

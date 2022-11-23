@@ -221,131 +221,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &98296671 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8824980266640728917, guid: 99e8e24a5fa0cc648aa95a304b67b56b,
-    type: 3}
-  m_PrefabInstance: {fileID: 3869077673954081053}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &98296673
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 98296671}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 237cc2000fb3c774fae7752d1347f535, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  movementType: 0
-  maximumVelocity: 5
-  useXAxis: 1
-  useYAxis: 0
-  useZAxis: 1
-  requiresInput: 1
-  xInputName: Horizontal
-  yInputName: Vertical
-  zInputName: Vertical
-  xSpeed: 5
-  ySpeed: 5
-  zSpeed: 5
-  lookAtDirection: 0
-  isMovementLocal: 1
-  useWallAvoidance: 0
-  wallAvoidanceSize: {x: 0.3, y: 1, z: 0.1}
-  wallAvoidanceOffset: {x: 0, y: 0, z: 0.5}
-  wallAvoidanceLayers:
-    serializedVersion: 2
-    m_Bits: 1
-  animator: {fileID: 0}
-  movementParticleSystem: {fileID: 0}
-  minVelocityToToggle: 0.2
-  xDirParameterName: xDirection
-  yDirParameterName: yDirection
-  zDirParameterName: zDirection
-  keepOrientationOnIdle: 1
-  trackSpeed: 1
-  speedParameterName: MoveSpeed
-  animateWhenGroundedOnly: 0
-  collisionCheckRadius: 0.65
-  collisionOffset: {x: 0, y: 0.1, z: 0}
-  groundLayerMask:
-    serializedVersion: 2
-    m_Bits: 1
-  groundedParameterName: isGrounded
-  useGravity: 1
-  gravityForce: 10
-  maxGravityForce: 50
-  displayDebugInfo: 1
-  canMove: 1
-  currentSpeed: {x: 0, y: 0, z: 0}
-  xInputChoiceIndex: 0
-  yInputChoiceIndex: 0
-  zInputChoiceIndex: 0
---- !u!114 &98296675
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 98296671}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c821db7469828d4449d2ef595875c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mapSprite: {fileID: 467067739}
-  openMap:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 1
-      outSlope: 1
-      tangentMode: 34
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 1
-      value: 1
-      inSlope: 1
-      outSlope: 1
-      tangentMode: 34
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  closeMap:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0.99765015
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 1.0053908
-      value: 0.002188012
-      inSlope: 0.0019776404
-      outSlope: 0.0019776404
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.1800244
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  curveDuration: 3
 --- !u!1001 &237549752
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1048,6 +923,30 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1915832215 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1915832215, guid: 652c1aae81d5f3d46a999813d6ef8d25,
+    type: 3}
+  m_PrefabInstance: {fileID: 3508529999091975400}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1955574573 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1955574573, guid: 652c1aae81d5f3d46a999813d6ef8d25,
+    type: 3}
+  m_PrefabInstance: {fileID: 3508529999091975400}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2003261677 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4111529992541676417, guid: 99e8e24a5fa0cc648aa95a304b67b56b,
@@ -1196,6 +1095,111 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 98296673, guid: 99e8e24a5fa0cc648aa95a304b67b56b, type: 3}
+      propertyPath: isMovementLocal
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 98296673, guid: 99e8e24a5fa0cc648aa95a304b67b56b, type: 3}
+      propertyPath: zInputChoiceIndex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 98296674, guid: 99e8e24a5fa0cc648aa95a304b67b56b, type: 3}
+      propertyPath: nbUses
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 98296674, guid: 99e8e24a5fa0cc648aa95a304b67b56b, type: 3}
+      propertyPath: mapSprite
+      value: 
+      objectReference: {fileID: 467067739}
+    - target: {fileID: 98296674, guid: 99e8e24a5fa0cc648aa95a304b67b56b, type: 3}
+      propertyPath: cooldownText
+      value: 
+      objectReference: {fileID: 1955574573}
+    - target: {fileID: 98296674, guid: 99e8e24a5fa0cc648aa95a304b67b56b, type: 3}
+      propertyPath: cooldownTime
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 98296674, guid: 99e8e24a5fa0cc648aa95a304b67b56b, type: 3}
+      propertyPath: UIUtilisations
+      value: 
+      objectReference: {fileID: 1915832215}
+    - target: {fileID: 98296674, guid: 99e8e24a5fa0cc648aa95a304b67b56b, type: 3}
+      propertyPath: curve.m_Curve.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 98296674, guid: 99e8e24a5fa0cc648aa95a304b67b56b, type: 3}
+      propertyPath: curve.m_Curve.Array.data[1].time
+      value: 0.50240386
+      objectReference: {fileID: 0}
+    - target: {fileID: 98296674, guid: 99e8e24a5fa0cc648aa95a304b67b56b, type: 3}
+      propertyPath: curve.m_Curve.Array.data[2].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 98296674, guid: 99e8e24a5fa0cc648aa95a304b67b56b, type: 3}
+      propertyPath: curve.m_Curve.Array.data[1].value
+      value: 1.001988
+      objectReference: {fileID: 0}
+    - target: {fileID: 98296674, guid: 99e8e24a5fa0cc648aa95a304b67b56b, type: 3}
+      propertyPath: curve.m_Curve.Array.data[2].value
+      value: 0.0000012284145
+      objectReference: {fileID: 0}
+    - target: {fileID: 98296674, guid: 99e8e24a5fa0cc648aa95a304b67b56b, type: 3}
+      propertyPath: curve.m_Curve.Array.data[0].inSlope
+      value: 1.9943876
+      objectReference: {fileID: 0}
+    - target: {fileID: 98296674, guid: 99e8e24a5fa0cc648aa95a304b67b56b, type: 3}
+      propertyPath: curve.m_Curve.Array.data[1].inSlope
+      value: -0.009633541
+      objectReference: {fileID: 0}
+    - target: {fileID: 98296674, guid: 99e8e24a5fa0cc648aa95a304b67b56b, type: 3}
+      propertyPath: curve.m_Curve.Array.data[2].inSlope
+      value: -2.0136547
+      objectReference: {fileID: 0}
+    - target: {fileID: 98296674, guid: 99e8e24a5fa0cc648aa95a304b67b56b, type: 3}
+      propertyPath: curve.m_Curve.Array.data[0].outSlope
+      value: 1.9943876
+      objectReference: {fileID: 0}
+    - target: {fileID: 98296674, guid: 99e8e24a5fa0cc648aa95a304b67b56b, type: 3}
+      propertyPath: curve.m_Curve.Array.data[1].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 98296674, guid: 99e8e24a5fa0cc648aa95a304b67b56b, type: 3}
+      propertyPath: curve.m_Curve.Array.data[1].outSlope
+      value: -0.009633541
+      objectReference: {fileID: 0}
+    - target: {fileID: 98296674, guid: 99e8e24a5fa0cc648aa95a304b67b56b, type: 3}
+      propertyPath: curve.m_Curve.Array.data[2].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 98296674, guid: 99e8e24a5fa0cc648aa95a304b67b56b, type: 3}
+      propertyPath: curve.m_Curve.Array.data[2].outSlope
+      value: -2.0136547
+      objectReference: {fileID: 0}
+    - target: {fileID: 98296674, guid: 99e8e24a5fa0cc648aa95a304b67b56b, type: 3}
+      propertyPath: curve.m_Curve.Array.data[0].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 98296674, guid: 99e8e24a5fa0cc648aa95a304b67b56b, type: 3}
+      propertyPath: curve.m_Curve.Array.data[1].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 98296674, guid: 99e8e24a5fa0cc648aa95a304b67b56b, type: 3}
+      propertyPath: curve.m_Curve.Array.data[0].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 98296674, guid: 99e8e24a5fa0cc648aa95a304b67b56b, type: 3}
+      propertyPath: curve.m_Curve.Array.data[1].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 98296674, guid: 99e8e24a5fa0cc648aa95a304b67b56b, type: 3}
+      propertyPath: curve.m_Curve.Array.data[2].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 3762137390580782794, guid: 99e8e24a5fa0cc648aa95a304b67b56b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 4111529992541676417, guid: 99e8e24a5fa0cc648aa95a304b67b56b,
         type: 3}
       propertyPath: m_TagString
@@ -1353,7 +1357,7 @@ PrefabInstance:
     - target: {fileID: 6820842316428295505, guid: aa2849284c9dd884d89e45ee9f21d0a2,
         type: 3}
       propertyPath: loadCurrentScene
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa2849284c9dd884d89e45ee9f21d0a2, type: 3}
