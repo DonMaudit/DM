@@ -96,7 +96,7 @@ SphereCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3733159353109743931}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.5
@@ -142,13 +142,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbedded14f7eac04a8a6d19dce840be6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loadCurrentScene: 0
+  loadCurrentScene: 1
   sceneIndex: 2
-  delay: 1
+  delay: 0
   playFX: 0
-  showText: 1
-  uiText: {fileID: 0}
+  showText: 0
+  ui: {fileID: 0}
   text: Porte du feu ouverte
+  m_animator: {fileID: 0}
+  playDeathAnim: 0
+  playCollectAnim: 0
 --- !u!1001 &4265507376759617682
 PrefabInstance:
   m_ObjectHideFlags: 0
