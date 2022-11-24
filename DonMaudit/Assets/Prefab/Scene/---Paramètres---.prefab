@@ -92,6 +92,36 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3325392058470520996}
     m_Modifications:
+    - target: {fileID: 3308389840412256789, guid: fa526e6a2a3346d499a21fcb1b4d2c0f,
+        type: 3}
+      propertyPath: moveWithTransform
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3308389840424734699, guid: fa526e6a2a3346d499a21fcb1b4d2c0f,
+        type: 3}
+      propertyPath: moveWithTransform
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3308389840691669958, guid: fa526e6a2a3346d499a21fcb1b4d2c0f,
+        type: 3}
+      propertyPath: moveWithTransform
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3308389840697777945, guid: fa526e6a2a3346d499a21fcb1b4d2c0f,
+        type: 3}
+      propertyPath: moveWithTransform
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3308389840697983721, guid: fa526e6a2a3346d499a21fcb1b4d2c0f,
+        type: 3}
+      propertyPath: moveWithTransform
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3308389840802722006, guid: fa526e6a2a3346d499a21fcb1b4d2c0f,
+        type: 3}
+      propertyPath: moveWithTransform
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3308389841177114753, guid: fa526e6a2a3346d499a21fcb1b4d2c0f,
         type: 3}
       propertyPath: m_Name
@@ -151,6 +181,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3308389841177114815, guid: fa526e6a2a3346d499a21fcb1b4d2c0f,
+        type: 3}
+      propertyPath: moveWithTransform
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3308389841573500864, guid: fa526e6a2a3346d499a21fcb1b4d2c0f,
+        type: 3}
+      propertyPath: moveWithTransform
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3308389842171238557, guid: fa526e6a2a3346d499a21fcb1b4d2c0f,
+        type: 3}
+      propertyPath: moveWithTransform
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fa526e6a2a3346d499a21fcb1b4d2c0f, type: 3}
@@ -378,16 +423,16 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1700011904, guid: 652c1aae81d5f3d46a999813d6ef8d25, type: 3}
       propertyPath: m_fontSize
-      value: 59.55
+      value: 57.4
       objectReference: {fileID: 0}
     - target: {fileID: 1915832215, guid: 652c1aae81d5f3d46a999813d6ef8d25, type: 3}
       propertyPath: m_fontSize
-      value: 63.85
+      value: 61.5
       objectReference: {fileID: 0}
     - target: {fileID: 2841516329028319075, guid: 652c1aae81d5f3d46a999813d6ef8d25,
         type: 3}
       propertyPath: m_fontSize
-      value: 45.85
+      value: 44.2
       objectReference: {fileID: 0}
     - target: {fileID: 3508529998085094571, guid: 652c1aae81d5f3d46a999813d6ef8d25,
         type: 3}
