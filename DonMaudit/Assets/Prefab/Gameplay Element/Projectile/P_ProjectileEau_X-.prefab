@@ -131,7 +131,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementType: 1
-  maximumVelocity: 4
+  maximumVelocity: 6
   useXAxis: 1
   useYAxis: 0
   useZAxis: 0
@@ -139,7 +139,7 @@ MonoBehaviour:
   xInputName: Horizontal
   yInputName: Vertical
   zInputName: Vertical
-  xSpeed: -4
+  xSpeed: -6
   ySpeed: 5
   zSpeed: -4
   lookAtDirection: 0
@@ -239,7 +239,7 @@ SphereCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.1
-  m_Center: {x: 0, y: 0, z: -0.74}
+  m_Center: {x: 0, y: 0, z: 0.54}
 --- !u!1001 &3644011062184311417
 PrefabInstance:
   m_ObjectHideFlags: 0

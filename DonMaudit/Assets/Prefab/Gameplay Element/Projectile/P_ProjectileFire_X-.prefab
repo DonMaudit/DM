@@ -17,9 +17,10 @@ GameObject:
   - component: {fileID: 2585174506205227438}
   - component: {fileID: -2085461627000848561}
   - component: {fileID: -719285700906350151}
+  - component: {fileID: 699773587820873669}
   m_Layer: 6
   m_Name: P_ProjectileFire_X-
-  m_TagString: Untagged
+  m_TagString: Projectile_collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -101,7 +102,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &74005196311384612
 MonoBehaviour:
@@ -130,7 +131,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementType: 1
-  maximumVelocity: 4
+  maximumVelocity: 6
   useXAxis: 1
   useYAxis: 0
   useZAxis: 0
@@ -138,7 +139,7 @@ MonoBehaviour:
   xInputName: Horizontal
   yInputName: Vertical
   zInputName: Vertical
-  xSpeed: -4
+  xSpeed: -6
   ySpeed: 5
   zSpeed: -4
   lookAtDirection: 0
@@ -226,6 +227,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   useTag: 1
   tagName: Projectile_collider
+--- !u!135 &699773587820873669
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6139354690194709533}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.1
+  m_Center: {x: -0.56, y: 0, z: 0}
 --- !u!1001 &2128338259164924172
 PrefabInstance:
   m_ObjectHideFlags: 0

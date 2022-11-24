@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 9117204528185303171}
   m_Layer: 0
   m_Name: P_projectile_collider
-  m_TagString: Projectile_collider
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
