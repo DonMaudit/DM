@@ -110,7 +110,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be496e93d6fcd2d48bf59d59880e1098, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bumpForce: {x: 15, y: 10, z: 0}
+  bumpForce: {x: 10, y: 5, z: 0}
   bumpTowardsOther: 0
   additionalForceTowardsOther: 500
   preventInputHolding: 0
@@ -232,7 +232,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be496e93d6fcd2d48bf59d59880e1098, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bumpForce: {x: -15, y: 10, z: 0}
+  bumpForce: {x: -10, y: 5, z: 0}
   bumpTowardsOther: 0
   additionalForceTowardsOther: 500
   preventInputHolding: 0
@@ -381,7 +381,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be496e93d6fcd2d48bf59d59880e1098, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bumpForce: {x: 0, y: 10, z: -15}
+  bumpForce: {x: 0, y: 5, z: -10}
   bumpTowardsOther: 0
   additionalForceTowardsOther: 500
   preventInputHolding: 0
@@ -498,7 +498,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be496e93d6fcd2d48bf59d59880e1098, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bumpForce: {x: 0, y: 10, z: 15}
+  bumpForce: {x: 0, y: 5, z: 10}
   bumpTowardsOther: 0
   additionalForceTowardsOther: 500
   preventInputHolding: 0

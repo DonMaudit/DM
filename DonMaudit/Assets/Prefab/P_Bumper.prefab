@@ -96,8 +96,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.15833056, y: 1, z: 1.2}
-  m_Center: {x: -0.52083474, y: 0, z: 1.0776693e-13}
+  m_Size: {x: 0.15833056, y: 1, z: 1.0898309}
+  m_Center: {x: -0.52083474, y: 0, z: -0.015843064}
 --- !u!114 &8445856318991701309
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -110,7 +110,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be496e93d6fcd2d48bf59d59880e1098, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bumpForce: {x: 15, y: 10, z: 0}
+  bumpForce: {x: 10, y: 5, z: 0}
   bumpTowardsOther: 0
   additionalForceTowardsOther: 500
   preventInputHolding: 0
@@ -218,8 +218,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.09141815, y: 1, z: 1.2}
-  m_Center: {x: -0.55429095, y: 0, z: 0}
+  m_Size: {x: 0.09141815, y: 1, z: 0.8493725}
+  m_Center: {x: -0.55429095, y: 0, z: 0.0023941845}
 --- !u!114 &6083398510167206975
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -232,7 +232,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be496e93d6fcd2d48bf59d59880e1098, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bumpForce: {x: -15, y: 10, z: 0}
+  bumpForce: {x: -10, y: 5, z: 0}
   bumpTowardsOther: 0
   additionalForceTowardsOther: 500
   preventInputHolding: 0
@@ -367,8 +367,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.13814467, y: 1, z: 1.2}
-  m_Center: {x: 0.5309278, y: 0, z: 3.1820586e-13}
+  m_Size: {x: 0.1381447, y: 1, z: 1.1047053}
+  m_Center: {x: 0.5309278, y: 0, z: -0.0021616817}
 --- !u!114 &4989829663790682033
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -381,7 +381,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be496e93d6fcd2d48bf59d59880e1098, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bumpForce: {x: 0, y: 10, z: -15}
+  bumpForce: {x: 0, y: 5, z: -10}
   bumpTowardsOther: 0
   additionalForceTowardsOther: 500
   preventInputHolding: 0
@@ -484,8 +484,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.119618, y: 1, z: 1.2}
-  m_Center: {x: 0.54019105, y: 0, z: -3.5527137e-14}
+  m_Size: {x: 0.11961794, y: 1, z: 0.96036196}
+  m_Center: {x: 0.54019105, y: 0, z: 0.025621653}
 --- !u!114 &5212361004614678681
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -498,7 +498,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be496e93d6fcd2d48bf59d59880e1098, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bumpForce: {x: 0, y: 10, z: 15}
+  bumpForce: {x: 0, y: 5, z: 10}
   bumpTowardsOther: 0
   additionalForceTowardsOther: 500
   preventInputHolding: 0
