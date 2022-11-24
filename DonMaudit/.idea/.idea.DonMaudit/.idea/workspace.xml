@@ -29,13 +29,14 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "rider.run.widget.enabled.cache": "false",
     "settings.editor.selected.configurable": "advanced.settings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.8f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="C:\Users\gregm\Desktop\Unity\2021.3.8f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath C:\Users\gregm\Documents\GitHub\DM\DonMaudit -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\Users\gregm\Documents\GitHub\DM\DonMaudit" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -74,6 +75,7 @@
       <workItem from="1669122977297" duration="10210000" />
       <workItem from="1669209599475" duration="568000" />
       <workItem from="1669243960623" duration="1491000" />
+      <workItem from="1669295356940" duration="281000" />
     </task>
     <servers />
   </component>

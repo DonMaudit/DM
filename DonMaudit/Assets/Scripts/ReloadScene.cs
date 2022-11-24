@@ -19,6 +19,13 @@ public class ReloadScene : MonoBehaviour
     [SerializeField] private bool showText;
     [SerializeField] private TMP_Text uiText;
     [SerializeField] private string text;
+
+    [Header("Anims")] 
+    [SerializeField] private Animator m_animator;
+    [SerializeField] private bool playDeathAnim;
+    [SerializeField] private bool playCollectAnim;
+    
+    
     
     private void Start()
     {
@@ -45,6 +52,16 @@ public class ReloadScene : MonoBehaviour
             {
                 uiText.text = text;
                 uiText.enabled = true;
+            }
+
+            if (playDeathAnim)
+            {
+                m_animator.SetBool("isDead", true);
+            }
+
+            if (playCollectAnim)
+            {
+                m_animator.SetTrigger("collect");
             }
             StartCoroutine(Delay());
         }
