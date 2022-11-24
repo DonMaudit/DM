@@ -46,11 +46,11 @@ Material:
     - _FoamAmount: 9.33
     - _FoamCutOff: 5.9
     - _FoamOffset: 0.6
-    - _FoamScale: 240
-    - _FoamSpeed: 2.89
+    - _FoamScale: 246.8
+    - _FoamSpeed: 2.65
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _RDensity: 31.4
+    - _RDensity: 36.5
     - _RSlim: 5
     - _RSpeed: 0.4
     - _RefractionScale: 0.5
