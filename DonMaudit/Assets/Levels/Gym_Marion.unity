@@ -486,10 +486,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3022643679116654702, guid: 93da5ca8e8e0c184b9d747ead2e60f30,
+        type: 3}
+      propertyPath: uiText
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7238915726979474871, guid: 93da5ca8e8e0c184b9d747ead2e60f30,
+        type: 3}
+      propertyPath: m_Name
+      value: Fire_door
+      objectReference: {fileID: 0}
     - target: {fileID: 7238915726979474871, guid: 93da5ca8e8e0c184b9d747ead2e60f30,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7408860171936811902, guid: 93da5ca8e8e0c184b9d747ead2e60f30,
         type: 3}
@@ -515,6 +525,11 @@ PrefabInstance:
         type: 3}
       propertyPath: ColorModule.gradient.maxGradient.key0.r
       value: 0.745283
+      objectReference: {fileID: 0}
+    - target: {fileID: 8461343582152466927, guid: 93da5ca8e8e0c184b9d747ead2e60f30,
+        type: 3}
+      propertyPath: m_text
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8600443293444205822, guid: 93da5ca8e8e0c184b9d747ead2e60f30,
         type: 3}
@@ -657,6 +672,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d2b401bf3fbea4844ae85b09eb3aaa35, type: 3}
+--- !u!114 &1358939529 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8461343582152466927, guid: 93da5ca8e8e0c184b9d747ead2e60f30,
+    type: 3}
+  m_PrefabInstance: {fileID: 725646728}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1403454226
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -802,6 +829,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1476102500, guid: 038d01b5b962af444b33cbcda716420b, type: 3}
+      propertyPath: uiText
+      value: 
+      objectReference: {fileID: 1358939529}
+    - target: {fileID: 1476102500, guid: 038d01b5b962af444b33cbcda716420b, type: 3}
+      propertyPath: showText
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3733159353109743878, guid: 038d01b5b962af444b33cbcda716420b,
         type: 3}
       propertyPath: m_RootOrder
