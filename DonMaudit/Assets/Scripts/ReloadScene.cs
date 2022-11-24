@@ -17,7 +17,8 @@ public class ReloadScene : MonoBehaviour
     [SerializeField] private bool playFX;
     private ParticleSystem fxToPlay;
     [SerializeField] private bool showText;
-    [SerializeField] private TMP_Text uiText;
+    [SerializeField] private GameObject ui;
+    private TMP_Text uiText;
     [SerializeField] private string text;
 
     [Header("Anims")] 
@@ -34,12 +35,13 @@ public class ReloadScene : MonoBehaviour
         {
             currentSceneindex = SceneManager.GetActiveScene().buildIndex;
         }
-        
+
+        uiText = ui.GetComponent<TMP_Text>();
+
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("ça part");
         if (other.CompareTag("Player"))
         {
             if (playFX)
@@ -50,8 +52,8 @@ public class ReloadScene : MonoBehaviour
 
             if (showText)
             {
+                ui.gameObject.SetActive(true); 
                 uiText.text = text;
-                uiText.enabled = true;
             }
 
             if (playDeathAnim)
