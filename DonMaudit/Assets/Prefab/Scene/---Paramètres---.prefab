@@ -230,7 +230,7 @@ PrefabInstance:
     - target: {fileID: 58742850026633621, guid: aa2849284c9dd884d89e45ee9f21d0a2,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -18.5
+      value: -10
       objectReference: {fileID: 0}
     - target: {fileID: 58742850026633621, guid: aa2849284c9dd884d89e45ee9f21d0a2,
         type: 3}
@@ -272,6 +272,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1382361112173043848, guid: aa2849284c9dd884d89e45ee9f21d0a2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2894026098274702573, guid: aa2849284c9dd884d89e45ee9f21d0a2,
         type: 3}
       propertyPath: m_Name
@@ -309,16 +314,16 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1700011904, guid: 652c1aae81d5f3d46a999813d6ef8d25, type: 3}
       propertyPath: m_fontSize
-      value: 18
+      value: 52.55
       objectReference: {fileID: 0}
     - target: {fileID: 1915832215, guid: 652c1aae81d5f3d46a999813d6ef8d25, type: 3}
       propertyPath: m_fontSize
-      value: 18
+      value: 56.3
       objectReference: {fileID: 0}
     - target: {fileID: 2841516329028319075, guid: 652c1aae81d5f3d46a999813d6ef8d25,
         type: 3}
       propertyPath: m_fontSize
-      value: 18
+      value: 40.45
       objectReference: {fileID: 0}
     - target: {fileID: 3508529998085094571, guid: 652c1aae81d5f3d46a999813d6ef8d25,
         type: 3}

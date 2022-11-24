@@ -142,7 +142,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbedded14f7eac04a8a6d19dce840be6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loadCurrentScene: 1
+  loadCurrentScene: 0
   sceneIndex: 2
   delay: 0
   playFX: 0

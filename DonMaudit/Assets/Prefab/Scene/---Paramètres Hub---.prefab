@@ -314,16 +314,16 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1700011904, guid: 652c1aae81d5f3d46a999813d6ef8d25, type: 3}
       propertyPath: m_fontSize
-      value: 37.15
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 1915832215, guid: 652c1aae81d5f3d46a999813d6ef8d25, type: 3}
       propertyPath: m_fontSize
-      value: 39.8
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 2841516329028319075, guid: 652c1aae81d5f3d46a999813d6ef8d25,
         type: 3}
       propertyPath: m_fontSize
-      value: 28.6
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 3508529998085094571, guid: 652c1aae81d5f3d46a999813d6ef8d25,
         type: 3}
@@ -434,6 +434,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 3508529998085094615, guid: 652c1aae81d5f3d46a999813d6ef8d25,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 652c1aae81d5f3d46a999813d6ef8d25, type: 3}

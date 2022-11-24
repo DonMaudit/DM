@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 5533409667982951048}
   - component: {fileID: 5533409667982951049}
   - component: {fileID: 5401221822903716520}
+  - component: {fileID: 6653219820593107957}
   m_Layer: 6
   m_Name: P_ProjectileFire_Z-
   m_TagString: Untagged
@@ -211,6 +212,20 @@ MonoBehaviour:
   m_animator: {fileID: 0}
   playDeathAnim: 0
   playCollectAnim: 0
+--- !u!114 &6653219820593107957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5533409667982951050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c3ecaf974284ed46b8c1b731aa478be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useTag: 1
+  tagName: Projectile_collider
 --- !u!1001 &4787243644819597272
 PrefabInstance:
   m_ObjectHideFlags: 0
