@@ -182,7 +182,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  curveDuration: 3
+  curveDuration: 8
   UIUtilisations: {fileID: 0}
   nbUses: 4
   cooldownText: {fileID: 0}
