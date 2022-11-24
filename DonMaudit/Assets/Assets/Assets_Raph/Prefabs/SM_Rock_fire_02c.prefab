@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5017579930030934785}
   - component: {fileID: 8218468754532631716}
   - component: {fileID: 6190525892536594542}
+  - component: {fileID: 4937578837492222219}
   m_Layer: 0
   m_Name: SM_Rock_fire_02c
   m_TagString: Untagged
@@ -84,3 +85,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &4937578837492222219
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5686312331537011131}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 180.10992, y: 94.86839, z: 118.802444}
+  m_Center: {x: -0.62348175, y: -0.77757823, z: -59.401222}

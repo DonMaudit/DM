@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8664791922410688080}
   - component: {fileID: 5733185461463646709}
   - component: {fileID: 7526828364509312319}
+  - component: {fileID: 1970935488167745600}
   m_Layer: 0
   m_Name: SM_Lanceur_Feu
   m_TagString: Untagged
@@ -25,14 +26,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8319370021680108778}
-  m_LocalRotation: {x: -0.6532815, y: -0.27059805, z: -0.27059805, w: 0.6532815}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalRotation: {x: -0.65328157, y: -0.27059785, z: -0.27059785, w: 0.65328157}
+  m_LocalPosition: {x: -2.3283064e-10, y: 0, z: -2.3283064e-10}
   m_LocalScale: {x: 0.705541, y: 0.705541, z: 0.79288}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: -45}
 --- !u!33 &5733185461463646709
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -83,3 +84,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1970935488167745600
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8319370021680108778}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2232952877369940510, guid: 58798caf9aeb21645868a99e0a6ff579, type: 3}
