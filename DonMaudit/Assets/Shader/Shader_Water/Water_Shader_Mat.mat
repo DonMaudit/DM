@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Water_Shader_Mat
-  m_Shader: {fileID: -6465566751694194690, guid: b71314f85f50cda4b91b636c8dec475c,
+  m_Shader: {fileID: -6465566751694194690, guid: f42cbd5a67ae68040824b3b37dee9c26,
     type: 3}
   m_ValidKeywords:
   - _SURFACE_TYPE_TRANSPARENT
@@ -44,15 +44,15 @@ Material:
     - _Cull: 2
     - _DstBlend: 10
     - _FoamAmount: 9.33
-    - _FoamCutOff: 7
+    - _FoamCutOff: 5.9
     - _FoamOffset: 0.6
-    - _FoamScale: 58.54
-    - _FoamSpeed: 1.44
+    - _FoamScale: 240
+    - _FoamSpeed: 2.89
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _RDensity: 23.8
+    - _RDensity: 31.4
     - _RSlim: 5
-    - _RSpeed: 1
+    - _RSpeed: 0.4
     - _RefractionScale: 0.5
     - _RefractionSpeed: 1
     - _RefractionStrengh: 1

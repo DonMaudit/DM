@@ -8160,15 +8160,15 @@
     "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
     "m_ObjectId": "e6dbf96abc5a44359c4c379cd13a5c75",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "5c20cb695ca6464692f79bb67b922abb"
     },
     "m_Name": "Property",
     "m_DrawState": {
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -2281.0,
-            "y": 1195.0,
+            "x": -2222.999755859375,
+            "y": 1081.9998779296875,
             "width": 112.0,
             "height": 34.0
         }
