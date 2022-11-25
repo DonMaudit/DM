@@ -14784,7 +14784,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   loadCurrentScene: 0
   sceneIndex: 4
-  delay: 0
+  delay: 0.5
   playFX: 0
   showText: 0
   ui: {fileID: 0}

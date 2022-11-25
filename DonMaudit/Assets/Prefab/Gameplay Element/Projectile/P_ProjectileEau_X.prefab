@@ -16,8 +16,6 @@ GameObject:
   - component: {fileID: 5340864136648251973}
   - component: {fileID: 239326087263996554}
   - component: {fileID: -7051203496623824689}
-  - component: {fileID: 8671920586043892371}
-  - component: {fileID: 7701959250279663352}
   m_Layer: 6
   m_Name: P_ProjectileEau_X
   m_TagString: Untagged
@@ -213,33 +211,6 @@ MonoBehaviour:
   m_animator: {fileID: 0}
   playDeathAnim: 0
   playCollectAnim: 0
---- !u!135 &8671920586043892371
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4036266961352231881}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.1
-  m_Center: {x: 0, y: 0, z: -0.47}
---- !u!114 &7701959250279663352
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4036266961352231881}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c3ecaf974284ed46b8c1b731aa478be, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  useTag: 1
-  tagName: Projectile_collider
 --- !u!1001 &8964748365810402519
 PrefabInstance:
   m_ObjectHideFlags: 0

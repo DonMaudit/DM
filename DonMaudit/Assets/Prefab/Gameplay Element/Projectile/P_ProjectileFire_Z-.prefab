@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 5533409667982951048}
   - component: {fileID: 5533409667982951049}
   - component: {fileID: 5401221822903716520}
-  - component: {fileID: 6653219820593107957}
+  - component: {fileID: 4402747701415796843}
   m_Layer: 6
   m_Name: P_ProjectileFire_Z-
   m_TagString: Untagged
@@ -212,7 +212,7 @@ MonoBehaviour:
   m_animator: {fileID: 0}
   playDeathAnim: 0
   playCollectAnim: 0
---- !u!114 &6653219820593107957
+--- !u!114 &4402747701415796843
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -225,7 +225,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   useTag: 1
-  tagName: Projectile_collider
+  tagName: 
 --- !u!1001 &4787243644819597272
 PrefabInstance:
   m_ObjectHideFlags: 0

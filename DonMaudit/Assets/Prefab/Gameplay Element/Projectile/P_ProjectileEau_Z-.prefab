@@ -16,8 +16,6 @@ GameObject:
   - component: {fileID: 5533409667982951048}
   - component: {fileID: 5533409667982951049}
   - component: {fileID: 5401221822903716520}
-  - component: {fileID: -6891942499732260504}
-  - component: {fileID: 3245198831717984749}
   m_Layer: 6
   m_Name: P_ProjectileEau_Z-
   m_TagString: Untagged
@@ -213,33 +211,6 @@ MonoBehaviour:
   m_animator: {fileID: 0}
   playDeathAnim: 0
   playCollectAnim: 0
---- !u!114 &-6891942499732260504
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5533409667982951050}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c3ecaf974284ed46b8c1b731aa478be, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  useTag: 1
-  tagName: Projectile_collider
---- !u!135 &3245198831717984749
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5533409667982951050}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.1
-  m_Center: {x: 0, y: 0, z: 0.64}
 --- !u!1001 &1859719008321893213
 PrefabInstance:
   m_ObjectHideFlags: 0
