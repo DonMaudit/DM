@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: fireshader
+  m_Shader: {fileID: -6465566751694194690, guid: bfcbc0389df2acd419af6cd6340b9f4f,
+    type: 3}
+  m_ValidKeywords:
+  - _SURFACE_TYPE_TRANSPARENT
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    RenderType: Transparent
+  disabledShaderPasses:
+  - DepthOnly
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaClip: 0
+    - _Blend: 0
+    - _CastShadows: 1
+    - _Cull: 2
+    - _DstBlend: 10
+    - _FoamAmount: 9.33
+    - _FoamCutOff: 5.9
+    - _FoamOffset: 0.6
+    - _FoamScale: 246.8
+    - _FoamSpeed: 2.65
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _RDensity: 36.5
+    - _RSlim: 5
+    - _RSpeed: 0.4
+    - _RefractionScale: 0.5
+    - _RefractionSpeed: 1
+    - _RefractionStrengh: 0.64
+    - _SrcBlend: 5
+    - _Surface: 1
+    - _TEST_POWER: 1
+    - _WaterDepth: 9.62
+    - _ZTest: 4
+    - _ZWrite: 0
+    - _ZWriteControl: 0
+    m_Colors:
+    - _DeepWater: {r: 0.9843137, g: 0.19404364, b: 0, a: 0.9019608}
+    - _Direction_Wave: {r: 0.02, g: 0.02, b: 0, a: 0}
+    - _FoamColor: {r: 0.9528302, g: 0.24166483, b: 0.112362035, a: 0.8431373}
+    - _RColor: {r: 0.9528302, g: 0.8530527, b: 0.12135102, a: 0}
+    - _ShallowWater: {r: 0.99215686, g: 0.6481798, b: 0.22745097, a: 0.8862745}
+  m_BuildTextureStacks: []
+--- !u!114 &3777839614873044270
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5
